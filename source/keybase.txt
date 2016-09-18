@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/ruimsramos
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rramos.github.io
+  * I am ruimsramos (https://keybase.io/ruimsramos) on keybase.
+  * I have a public key ASAKX3usgpVTrR3qYE6K5qDVewru_dIrbOAhL74M6LHwDwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010101663c940da4fce9d572f6748491671d10db3c91df4dcbf1072d534250458a0b0a",
+            "host": "keybase.io",
+            "kid": "01200a5f7bac829553ad1dea604e8ae6a0d57b0aeefdd22b6ce0212fbe0ce8b1f00f0a",
+            "uid": "8522ca5dbecf7e3e6884c7bdac26d119",
+            "username": "ruimsramos"
+        },
+        "service": {
+            "hostname": "rramos.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1474157508,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1474157268,
+        "hash": "8146e96b7b59d0117b0f8ef298f9882cd50349f7a2d726257d5b7b7fbcd01e2f2c77de1e567d67404b3e98fc5e6276f39b6667808f957d7b359fbb4189622bba",
+        "seqno": 641386
+    },
+    "prev": "377d6015348e0901ab403ebba0c9c4126a4fdecdecdcddcdd33c8801c707d629",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCl97rIKVU60d6mBOiuag1XsK7v3SK2zgIS++DOix8A8Kp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMDE2NjNjOTQwZGE0ZmNlOWQ1NzJmNjc0ODQ5MTY3MWQxMGRiM2M5MWRmNGRjYmYxMDcyZDUzNDI1MDQ1OGEwYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMGE1ZjdiYWM4Mjk1NTNhZDFkZWE2MDRlOGFlNmEwZDU3YjBhZWVmZGQyMmI2Y2UwMjEyZmJlMGNlOGIxZjAwZjBhIiwidWlkIjoiODUyMmNhNWRiZWNmN2UzZTY4ODRjN2JkYWMyNmQxMTkiLCJ1c2VybmFtZSI6InJ1aW1zcmFtb3MifSwic2VydmljZSI6eyJob3N0bmFtZSI6InJyYW1vcy5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNyJ9LCJjdGltZSI6MTQ3NDE1NzUwOCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDc0MTU3MjY4LCJoYXNoIjoiODE0NmU5NmI3YjU5ZDAxMTdiMGY4ZWYyOThmOTg4MmNkNTAzNDlmN2EyZDcyNjI1N2Q1YjdiN2ZiY2QwMWUyZjJjNzdkZTFlNTY3ZDY3NDA0YjNlOThmYzVlNjI3NmYzOWI2NjY3ODA4Zjk1N2Q3YjM1OWZiYjQxODk2MjJiYmEiLCJzZXFubyI6NjQxMzg2fSwicHJldiI6IjM3N2Q2MDE1MzQ4ZTA5MDFhYjQwM2ViYmEwYzljNDEyNmE0ZmRlY2RlY2RjZGRjZGQzM2M4ODAxYzcwN2Q2MjkiLCJzZXFubyI6MTYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAInoEBeWxgBI2iip+X7GS6qp8AFXDhlp+cGr5NReK1u3S8uB6+my4vJo75oh9c73QeB+XjUdXZwbt5VW3FFHdD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILs66C5tOgG+F05NEZg7yUOGwldrYmdS1wJm8BKKiY7To3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ruimsramos
+
+==================================================================
+

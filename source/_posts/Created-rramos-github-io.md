@@ -1,13 +1,20 @@
 ---
 title: Created rramos.github.io
 date: 2016-09-17 23:57:27
+comments: true
 tags:
+- github
+- hexo
+- blog
+- git
+- markdown
+
 ---
 # Started the github pages 
 
 ## Intro
 
-I had several blogs in the past that i normaly tend to ignore and stop writting, so this one will be a simple tech/personal blog with entries that i might find usefull in the future to serach quicker.
+I had several blogs in the past that i normaly tend to ignore and stop writting, so this one will be a simple tech/personal blog with entries that i might find usefull in the future to search quicker.
 
 And as any normal blog i would start by writting the procedure of deploying the blog itself.
 
@@ -17,7 +24,7 @@ So [hexo](https://hexo.io/) seems like a good solution for me.
 
 Gona try this one out.
 
-So first things first, hosting. I'm cheap bastard so i don't have coold domain yet and i just need some git repo for the blog.
+So first things first, hosting. I'm cheap bastard so i don't have cool domain yet, and i just need some git repo for the blog.
 
 Lets stick with [GitHub Pages](https://pages.github.com/) there git service is pretty owesome so lets try this one out.
 
@@ -37,7 +44,8 @@ It requires:
 * Node
 * Git
 
-Well, git i allready have since a clonned the repo, node must be installed be it must be the legacy since i'm using Ubuntu Xenial.
+Well, git i allready have since a clonned the repo. 
+Node must be installed, but since i'm using Ubuntu Xenial i need to install the legacy one.
 
 ```
 sudo apt install nodejs-legacy
@@ -67,7 +75,6 @@ deploy:
   type: git
   repo: git@github.com:rramos/rramos.github.io.git
   branch: master
-  message: [message]
 ```
 
 I also downloaded a very simple theme, cas'm a simple guy. 
@@ -106,7 +113,7 @@ And voilá: https://rramos.github.io  is up and running.
 
 ## Final touches 
 
-So hexo only dumps the public part of the blog which makes sense to the git repo. But i want to include all the source and not have separeted repositories for that.
+So hexo only dumps the public part of the blog which makes sense to the git repo. ~~But i want to include all the source and not have separeted repositories for that.~~
 
 I've created a src dir and copy all the source data there, now i can edit directly that repo, let's take that advantage and remove the default hello world page from the structure guess there migh exist a command for that.
 
@@ -123,9 +130,24 @@ There you are you bastard hello-world, lets get ride of you.
 ```
 hexo clean
 rm source/_posts/hello-world.md
-hex generate
+hexo generate
 ```
 
 Well guess that's it. There is a lot to explore in hexo from what i can tell, need to check the documentation and understand the community envolvment. Also a quick way to add imagens and other objects and define the quick way to deploy.
 
+## Seperate public from source
 
+It turns out that have the source and public data in the same repo causes some issues on the updates. The best aproach seems to have a separate repo for the source data and the offcial Github Pages or other hosting service with git for the public part.
+
+I've also added in this source repo a `.gitignore` with
+
+```
+public
+db.json
+.deploy_git
+```
+
+So now i just have to edit MarkDown hexo generate and hexo deploy, seems quick enough let's see if this time i can keep this updated.
+
+Cheers,
+RR
