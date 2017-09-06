@@ -1,4 +1,6 @@
 public
 db.json
 .deploy_git
+package.json
 node_modules
+.spelling
