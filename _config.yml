@@ -4,8 +4,8 @@
 
 # Site
 title: rramos.github.io
-subtitle:
-description: Tobe defined
+subtitle: Tech Notes for Infrastructure and Data
+description: A simple Blog related with Infrastructure Architecture and Data
 author: Rui Ramos
 language: English
 timezone: 
@@ -30,7 +30,7 @@ skip_render: ['keybase.txt']
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: very-simple 
+theme: light
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
