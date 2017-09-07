@@ -1,5 +1,5 @@
 ---
-title: git cheat sheet
+title: GIT cheat sheet
 tags:
   - git
   - cheat
@@ -7,8 +7,6 @@ tags:
 date: 2016-09-18 13:31:09
 ---
 
-
-# GIT cheat sheet
 
 As i'm allways forgetting how to reset my local changes from origin HEAD. This cheat sheet might help.
 

@@ -1,5 +1,5 @@
 ---
-title: SparkSummit2016
+title: Spark Summit 2016
 tags:
   - Conferences
   - Spark
@@ -10,8 +10,6 @@ tags:
 date: 2016-11-03 22:09:40
 ---
 
-
-# SparkSummit 2016
 
 So i've attended 25-27 OCT in Brussels to SparkSummit 2016 in Europe. So it kind makes sense to write down some impressions regarding the event.
 

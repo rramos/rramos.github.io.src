@@ -1,5 +1,5 @@
 ---
-title: hiveGC-md.md
+title: hive Queries crash when inserting GC Exception
 tags:
   - hadoop
   - hive
@@ -9,8 +9,6 @@ tags:
 date: 2016-10-19 00:05:00
 ---
 
-
-# hive Queries crash when inserting GC Exception
 
 When running some queries with hive sometimes we get a very nice java exception of overhead limit
 

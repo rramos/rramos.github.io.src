@@ -1,5 +1,5 @@
 ---
-title: portotechhub.com
+title: Porto Tech HUB 2016
 tags:
   - PortoTechHub
   - Conferences
@@ -8,8 +8,6 @@ tags:
 date: 2016-09-23 22:40:10
 ---
 
-
-# Porto Tech HUB 2016
 
 I've attend today to the second edition of Porto Tech HUB 2016. It was good to see old friends and the raising tech potencial in the City.
 

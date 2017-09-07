@@ -2,6 +2,10 @@
 title: Terminal Markdown Viewer and MarkDown SpellChecker
 date: 2017-09-07 02:00:16
 tags:
+  - Markdown
+  - Tools
+  - Utils
+  - Linux
 ---
 
 It's been a while that i've updated this posts. So let me start for something i've found out the other day.

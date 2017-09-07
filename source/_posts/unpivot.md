@@ -1,7 +1,11 @@
 ---
 title: Hive - Unpivot to avoid multiple joins
 date: 2017-09-07 17:57:08
-tags: hdfs,hive,optimization,BigData
+tags: 
+  - HDFS
+  - Hive
+  - Optimization
+  - BigData
 ---
 
 
