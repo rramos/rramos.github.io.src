@@ -13,15 +13,15 @@ In this article i'll try to describe the required configuration steps to setup P
 
 # Intro
 
-Before starting to describe this process, let's clarify why this is being done.
+Before starting the the configuration steps, let's just try to understand why this is being done.
 
-# Other Alternatives
+## Sqoop
 
-Sqoop is one of the most used tool to transfer data from the Relational World to BigData infrastructures. It relies on JDBC connectors to transfer data between SQLServer and HDFS.
+Sqoop is one of the most used tools to transfer data from the Relational World to BigData infrastructures. It relies on JDBC connectors to transfer data between SQLServer and HDFS.
 
 ## Performance
 
-The transfer process to SQLServer via sqoop is taking quite a lot, so the objective of this PoC is to verify the PolyBase alternative for dumping data in/out the cluster and understand if there is real benefith.
+The transfer process to SQLServer via sqoop is taking quite a lot, so the objective of this PoC is to verify if PolyBase alternative for dumping data in/out the cluster and understand if there is a improvement on existing processes.
 
 # Setup Process
 
@@ -137,9 +137,6 @@ WITH (LOCATION='/Demo/',
 CREATE STATISTICS StatsForSensors on CarSensor_Data(CustomerKey, Speed)  
 {% endcodeblock %}
 
-
-# Tests
-
 ## Example Queries
 
 * Import external Data
@@ -193,10 +190,26 @@ ON (T1.CustomerKey = T2.CustomerKey)
 WHERE T2.YearMeasured = 2009 and T2.Speed > 40;  
 {% endcodeblock %}
 
+# Tests
+
+Initial tests are quite good actually, even with the identified limitations. Polybase seems quite limited but for the objective in hands migth present like a very viable solution.
+
+Some more tests would be required.
+
+
+# Issues
+
+* It seems one cannot truncate external tables so an extra process would be required if you plan to use this as part of an ETL process that should support re-runs
+* It seems that `hadoop_user_name` is being ignored and polybase still uses `pwc_user` account in cluster.
+* Take care on the compression levels you choose as they consume quite a lot CPU on your SQLServer
+* The metadata of the tables is allways stored on SQLServer. And when you choose parquet files has source format it stores in parquet meta the colunms as `col-0,col-1,col-3,...` if you map thoose files to a Hive table would require a view with the respective column name mapping.
+* Not sure if this can be change but the dumped files to HDFS are splitted in 8, for the initial tests, only bad for small tables.
+
+
 
 # Conclusion
 
-- None at the moment
+- Work in progress
 
 # References
 
