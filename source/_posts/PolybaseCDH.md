@@ -1,13 +1,15 @@
 ---
 title: Polybase Configuration with Cloudera 5
 tags:
-    - Cloudera
-    - Polybase
-    - HDFS
-    - Sqoop
-    - SQLServer
-    - Data Ingestion
+  - Cloudera
+  - Polybase
+  - HDFS
+  - Sqoop
+  - SQLServer
+  - Data Ingestion
+date: 2017-09-09 01:06:30
 ---
+
 
 In this article i'll try to describe the required configuration steps to setup Polybase in SQLServer 2016 for [Cloudera](https://www.cloudera.com) CDH5. 
 
