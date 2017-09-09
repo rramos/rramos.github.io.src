@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-light"]
+	path = themes/hexo-theme-light
+	url = git@github.com:rramos/hexo-theme-light.git

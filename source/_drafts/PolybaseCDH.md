@@ -192,7 +192,7 @@ WHERE T2.YearMeasured = 2009 and T2.Speed > 40;
 
 # Tests
 
-Initial tests are quite good actually, even with the identified limitations. Polybase seems quite limited but for the objective in hands migth present like a very viable solution.
+Initial tests are quite good actually, even with the identified issues. Polybase seems quite limited but for the objective in hands migth present like a very viable solution.
 
 Some more tests would be required.
 

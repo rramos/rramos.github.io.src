@@ -12,13 +12,20 @@ tags:
     - Metrics
 ---
 
+
 In this article i'll describe the procedure to create a [Airflow](https://airflow.incubator.apache.org/) environment running in docker supporting several BigData Operators.
 
 I'll explain how it works, how to setup and try to document my personal thoughts on the software compared to other solutions.
 
 # Introduction
 
-TODO
+Airflow is a python platform to create, schedule and monitor workflows.
+
+{% blockquote Offical Website Definition%}
+
+Use airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
+
+{% endblockquote %}
 
 # PoC architecture
 
