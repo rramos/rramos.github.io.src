@@ -16,11 +16,11 @@ So this guide is intended to help on the setup of Google Chrome to use your conf
 
 ## Requirements
 
-### Configure you local tunnel
+### Configure your local tunnel
 
 You require a tunnel configuration setup. For Linux i recommend setting this up in your `.ssh/config` file. I'll give some examples, if you have interest on expanding you `./ssh/config` check the next article ill go in depth with it. There are also other tools such as [gSTM](https://sourceforge.net/projects/gstm/) tool.
 
-So let's begging to create our reverse tunnel
+So let's begin to create our reverse tunnel
 
 ```
 ssh -R 19999:localhost:22 sourceuser@remoteip
@@ -40,7 +40,7 @@ Go to your Extension Options and let's create a profile
 * **Port:** 19999
 * **SOCKS v5:** (enable)
 
-No let's create a rule for our local domain in **Switch Rules**
+Now let's create a rule for our local domain in **Switch Rules**
 
 Add the rule for our domain: 
 
@@ -53,7 +53,7 @@ Add the rule for our domain:
 
 Also don't forget to activate the **Auto Switch Mode** in the extension.
 
-And that's it now when you access the browser to domain http://something.mylocaldomain.dev you be using your define ssh tunnel for it.
+And that's it now when you access the browser to domain http://something.mylocaldomain.dev you be using your defined ssh tunnel for it.
 
 
 ## Test
@@ -68,7 +68,7 @@ python -m SimpleHTTPServer 8000
 
 Now access on the browser to http://test.mylocaldomain.dev:8000
 
-That's' it, you should now have different profiles configured and autoswitch will do the job.
+You could now have different profiles configured and autoswitch will do the job for you of choosing the appropriate tunnel.
 
 Cheers,
 RR 
