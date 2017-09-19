@@ -15,7 +15,7 @@ This article describes one way to create tables in BigQuery From HDFS parquet Da
 
 ## Requirements
 
-For this article one assumes the following requisites are set:
+For this article assumes the following requisites are meet:
 
 * You have a Google Cloud Platform account
 * You have created a Google Cloud Storage bucket
@@ -97,10 +97,10 @@ The other advantage of using avro is that BigQuery infers the schema so you don'
 
 The best approach for this is to add the GCS connector to your HDFS config
 
-Follow the instrictions in the following [link](https://github.com/GoogleCloudPlatform/bigdata-interop/tree/master/gcs) or download the jar for Hadoop 2.x [here](https://storage.googleapis.com/hadoop-lib/gcs/gcs-connector-latest-hadoop2.jar)
+Follow the instructions in the following [link](https://github.com/GoogleCloudPlatform/bigdata-interop/tree/master/gcs) or download the jar for Hadoop 2.x [here](https://storage.googleapis.com/hadoop-lib/gcs/gcs-connector-latest-hadoop2.jar)
 
 1. Add that jar on a valid location for you cluster `HADOOP_CLASSPATH`
-2. Generate a `service account` in the GCP console and in JSON format ([follow this instructions](https://cloud.google.com/storage/docs/authentication#service_accounts))
+2. Generate a `service account` in the GCP console and get JSON key ([follow this instructions](https://cloud.google.com/storage/docs/authentication#service_accounts))
 3. Copy that JSON file to a location in your cluster
 4. Add the following properties to your cluster `core-site.xml`
 
@@ -129,7 +129,7 @@ Follow the instrictions in the following [link](https://github.com/GoogleCloudPl
   </property>
 ```
 
-Extended options are available in [this](https://github.com/GoogleCloudPlatform/bigdata-interop/blob/master/gcs/conf/gcs-core-default.xml) example
+Extended options are available in [gcs-core-default](https://github.com/GoogleCloudPlatform/bigdata-interop/blob/master/gcs/conf/gcs-core-default.xml) example
 
 5. Create a new bucket on GCP and make sure you can access to with via `hdfs` command.
 
