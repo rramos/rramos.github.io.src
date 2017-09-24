@@ -7,7 +7,10 @@ title: rramos.github.io
 subtitle: Tech Notes for Infrastructure and Data
 description: A simple Blog related with Infrastructure Architecture and Data
 author: Rui Ramos
-language: English
+language: 
+ - en
+ - pt
+ - de
 timezone: 
 
 # URL
