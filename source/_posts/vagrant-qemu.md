@@ -15,7 +15,7 @@ This article is going to be about a quick way to setup a PoC environment using [
 
 # Why ?
 
-One migth go a bit further in the testing enviroments. Instead of dockers and use a virtualized enviroment. This kind of approcah whould be suitable when you like to try infrastructure services, or simple don't want to use dockers.
+One migth go a bit further in the testing enviroments, instead of dockers using virtualized enviroment. This kind of approcah whould be suitable when you like to try infrastructure services, or simple don't want to use dockers.
 
 If you check Internet Trends we can see docker interest have grown quite a lot on the last 5 years. 
 
