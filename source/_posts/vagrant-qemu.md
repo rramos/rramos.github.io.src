@@ -188,7 +188,7 @@ Then we can run the command to just run the provision stuff
 vagrant provision
 ```
 
-Let's add the following configuratoin on our Vagrant file
+Let's add the following configuration on our Vagrant file
 
 ```
 config.vm.network "forwarded_port", guest: 80, host: 8080
@@ -197,6 +197,10 @@ config.vm.network "forwarded_port", guest: 80, host: 8080
 And execute `vagrant reload`
 
 If one access http://localhost:8080 we are now accessing the VM installed service.
+
+If you recreate the VM it would run the ansible part at the end. 
+
+So it's quite easy to recreate your environment.
 
 # Cluster Configuration
 
