@@ -40,6 +40,6 @@ This returns an unpivoted table like below, which allows us to perform a single 
 |2         | e.jpg     |
 |2         | f.jpg     |
 
-Big thanks to Diogo Franco, for this hint ;) check also is [cool projects] (https://github.com/diogoalexandrefranco)
+Big thanks to Diogo Franco, for this hint ;) check also is Blog Page [diogoalexandrefranco.github.io](https://diogoalexandrefranco.github.io)
 
 
