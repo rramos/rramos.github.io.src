@@ -58,11 +58,8 @@ sudo apt-get install sbt
 * Clone the repo
 
 ```sh
-git clone https://github.com/rramos/dr-elephant.git
+git https://github.com/linkedin/dr-elephant.git
 ```
-
-**NOTE:** I've added some patch changes to Allow YARN HA 
-
 
 * Compile
 
