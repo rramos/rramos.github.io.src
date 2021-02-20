@@ -2,5 +2,6 @@ public
 db.json
 .deploy_git
 package.json
+package-lock.json
 node_modules
 .spelling
