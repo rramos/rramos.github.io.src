@@ -23,4 +23,9 @@ hexo generate
 hexo deploy
 ```
 
+# Test localy
+
+```
+hexo server
+```
 
